@@ -1,12 +1,14 @@
 # product-service
 
-Pre-requisite:
+###Pre-requisite:
 The host machine should have docker installed.
 
 1. Checkout the project to your desired directory.
-2. cd into the directory
-3. run the command "docker-compose up"
+2. CD into the directory
+3. Run the command "docker-compose up"
+4. The process will pull and build the images, and start the product service @port 8080 and the mongo db @port:27017
 
+###Once the servics are up and running
 To Access the service:
 
 1. Open your favourite browser
@@ -18,7 +20,7 @@ To Access the service:
 7. Enter the value: "13860428" in the id text box.
 8. Click "Execute"
 
-On Success:
+###On Success:
 Server Response: 200
 Response Body: 
 {
