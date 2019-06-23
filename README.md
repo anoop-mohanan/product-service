@@ -22,9 +22,8 @@
 
 **On Success:**
 
-***Server Response: 200***
-
-***Response Body: ***
+***Server Response: 200
+Response Body: ***
 
 {
   "id": "13860428",
