@@ -24,7 +24,7 @@
 
 - Server Response: 200
 - Response Body:
-- 
+
 {
   "id": "13860428",
   "name": "The Big Lebowski (Blu-ray)",
