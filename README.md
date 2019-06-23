@@ -22,14 +22,14 @@
 
 **On Success:**
 
-Server Response: 200
-Response Body:
-
+- Server Response: 200
+- Response Body:
+- 
 {
   "id": "13860428",
   "name": "The Big Lebowski (Blu-ray)",
   "price": {
-    "id": "5d0fe36fd5fa594daf00e355",  <---- this will change
+    "id": "5d0fe36fd5fa594daf00e355",
     "productId": "13860428",
     "value": 34.54,
     "currencyCode": "USD"
