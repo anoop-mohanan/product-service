@@ -36,3 +36,5 @@
   }
 }
 
+- Note: price id will change as it is a mongo generated id.
+
