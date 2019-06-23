@@ -23,6 +23,7 @@
 **On Success:**
 
 ***Server Response: 200***
+
 ***Response Body: ***
 
 {
