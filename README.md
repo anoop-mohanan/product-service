@@ -1,7 +1,7 @@
 # product-service
 
 **Pre-requisite:**
-***The host machine should have docker installed.***
+***The host machine should have docker and docker-compose installed.***
 
 1. Checkout the project to your desired directory.
 2. CD into the directory
