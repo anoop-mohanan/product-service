@@ -1,0 +1,22 @@
+version: "3"
+services:
+  mongocontainer:
+    image: mongo
+    ports:
+      - 27017:27017
+
+  mongo-seed:
+    build: ./mongo-seed
+    environment:
+      - MONGO_HOST=mongocontainer
+      - MONGO_PORT=27017
+    depends_on:
+      - mongocontainer
+    command: "mongoimport --host mongocontainer --db myretaildb --collection price --type json --file /prices.json --jsonArray --drop"
+  myretail-productservice:
+    build: .
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongocontainer
+    command: "sleep 15s"
